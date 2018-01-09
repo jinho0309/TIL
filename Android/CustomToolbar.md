@@ -4,7 +4,7 @@
 ```xml
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 ```
--item추가
+- item추가
 ```xml
 <item name="windowActionBar">false</item>  
 <item name="windowNoTitle">true</item>  
