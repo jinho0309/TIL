@@ -2,7 +2,10 @@
 ## build.grandle
 - support:desgin 추가
 ```xml
+compile 'com.android.support:design:26.+'
+```
 ## activity_main.xml
+
 - DrawerLayout으로 변경
 ```xml
 
