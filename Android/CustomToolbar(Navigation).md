@@ -1,4 +1,7 @@
 # ActionBar에 Navigation 및 Setting 추가
+## build.grandle
+- support:desgin 추가
+```xml
 ## activity_main.xml
 - DrawerLayout으로 변경
 ```xml
