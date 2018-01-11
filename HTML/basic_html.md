@@ -4,8 +4,8 @@
 <p></p><!--간격이 고정되어 있음 -->
 ```
 - 단락의 간격을 더 넓히고 싶을때
-1. CSS를 이용하여 변경
-2. <br>태그를 여러번
+  1. CSS를 이용하여 변경  
+  2. br태그를 여러번
 ## 줄바꿈 -br
 ```HTML
 <br><!--void element--><!--닫는 태그가 없다-->
@@ -41,11 +41,8 @@
 
 </table>
 ```
-tr : 행  
-td : 열
-
-- 속성
-  1. border : 테두리
+1. tr : 행  
+2. td : 열  
 ### 구조
 ```HTML
 <html>
@@ -74,10 +71,10 @@ td : 열
 </body>
 </html>
 ```
-thead : 표의 머리  
-tbody : 표의 본문  
-th : 강조  
-tfoot : 표의 가장 아래  
+- thead : 표의 머리  
+- tbody : 표의 본문  
+- th : 강조  
+- tfoot : 표의 가장 아래  
 ### 병합
 ```HTML
 <html>
@@ -126,7 +123,7 @@ colspan : 열 병합(가로)
 </html>
 ```
 1. form
-- action : submit했을 때 실행될 동작(ex : 보내질 서버의 주소)
+  - action : submit했을 때 실행될 동작(ex : 보내질 서버의 주소)
 2. input : 입력
-- type : 입력받을 값의 종류, submit은 form의 action을 시작함
-- name : 각 input의 고유 값
+  - type : 입력받을 값의 종류, submit은 form의 action을 시작함
+  - name : 각 input의 고유 값
