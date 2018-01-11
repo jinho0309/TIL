@@ -15,10 +15,10 @@
 <img src="">
 ```
 - 속성
-1. width : 가로
-2. height : 세로
-3. alt : img가 깨졌을 때 alt의 속성값이 표시(대체제)
-4. title : 마우스를 올려놨을 때
+  1. width : 가로
+  2. height : 세로
+  3. alt : img가 깨졌을 때 alt의 속성값이 표시(대체제)
+  4. title : 마우스를 올려놨을 때
 ## 표 -table
 ### 기본
 ```HTML
@@ -41,11 +41,11 @@
 
 </table>
 ```
-**<tr> : 행**  
-**<td> : 열**  
+tr : 행  
+td : 열
 
 - 속성
-1. border : 테두리
+  1. border : 테두리
 ### 구조
 ```HTML
 <html>
@@ -74,10 +74,10 @@
 </body>
 </html>
 ```
-<thead> : 표의 머리  
-<tbody> : 표의 본문  
-<th> : 강조  
-<tfoot> : 표의 가장 아래  
+thead : 표의 머리  
+tbody : 표의 본문  
+th : 강조  
+tfoot : 표의 가장 아래  
 ### 병합
 ```HTML
 <html>
@@ -107,7 +107,7 @@
 </body>
 </html>
 ```
-rowspan : 행 병합(세로)
+rowspan : 행 병합(세로)  
 colspan : 열 병합(가로)
 ## 입력양식 -form
 ```HTML
