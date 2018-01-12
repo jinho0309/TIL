@@ -27,12 +27,6 @@
       <option value="blue">파란색</option>
 </select>
 ```
-- 결과(default)
-<select name="color">
-        <option value="red">붉은색</option>
-        <option value="black">검은색</option>
-        <option value="blue">파란색</option>
-</select>
 1. select
   - multiple : 복수개의 정보를 선택할 수 있게 할 수 있음
   - name : 서버에 보낼 ID값
@@ -53,19 +47,6 @@
     105 : <input type="checkbox" name="size" value="105" checked>
 </p>
 ```
-- 결과
-<p>
-    <h1>색상(단일선택)</h1>
-    붉은색 : <input type="radio" name="color" value="red">
-    검은색 : <input type="radio" name="color" value="black" checked>
-    파란색 : <input type="radio" name="color" value="blue">
-</p>
-<p>
-    <h1>사이즈(다중선택)</h1>
-    95 : <input type="checkbox" name="size" value="95">
-    100 : <input type="checkbox" name="size" value="100" checked>
-    105 : <input type="checkbox" name="size" value="105" checked>
-</p>
 1. radio
   - name : name값이 같아야 여러 라디오버튼 중 한개만 선택가능
   - checked : 초기에 선택되있는 상태로 변경
