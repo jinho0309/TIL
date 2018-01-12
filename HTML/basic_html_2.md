@@ -33,12 +33,6 @@
         <option value="black">검은색</option>
         <option value="blue">파란색</option>
 </select>
-- 결과(multiple)
-<select name="color2" multiple>
-      <option value="red">붉은색</option>
-      <option value="black">검은색</option>
-      <option value="blue">파란색</option>
-</select>
 1. select
   - multiple : 복수개의 정보를 선택할 수 있게 할 수 있음
   - name : 서버에 보낼 ID값
@@ -85,11 +79,6 @@
 <input type="button" value="버튼" onclick="alert('hello world')">
 <input type="reset">
 ```
-- 결과
-<input type="text">
-<input type="submit" value="전송">
-<input type="button" value="버튼" onclick="alert('hello world')">
-<input type="reset">
 1. button : javascript와 연계해서 사용성이 높음
   - onclick : 버튼 클릭시 이벤트
 2. reset : 입력한 모든 정보가 초기화됨
@@ -100,10 +89,6 @@
 <input type="hidden" name="hide" value="egoing">
 <input type="submit">
 ```
-- 결과
-<input type="text" name="id">
-<input type="hidden" name="hide" value="egoing">
-<input type="submit">
 ### 컨트롤의 제목 -label
 - 특별한 기능이라기 보다는 정보의 이름을 붙여주는 태그(이름표)
 - 눈으로 보이는 차이는 없음
@@ -124,22 +109,6 @@
 </label>
 </p>
 ```
-- 결과
-<p>
-  <label for="id_txt">text :</label>
-  <input id="id_txt" type="text" name="id" value="default value"></p>
-<p>
-  <label for="password">password :</label>
-  <input id="password" type="password" name="pwd" value="default value"></p>
-<p>
-  <label>textarea :
-  <textarea cols="50" rows="2">default value</textarea></label>
-</p>
-<p>
-  <label>
-     <input type="checkbox" name="color" value="red">붉은색
-</label>
-</p>
 - 사용방법
   1. label for="exp" : exp라는 id를 가진 태그의 Label이 됨
   2. ```<label></label>```
@@ -163,11 +132,6 @@
          <input type="submit">
 </form>
 ```
-- 결과
-<form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">
-         <input type="file" name="profile">
-         <input type="submit">
-</form>
 *method="post" enctype="multipart/form=data"* 를 **반드시** 추가
 - enctype : 전송되는 데이터 형식을 설정
   1. application/www-form-urlencoded : 디폴트값이다. 폼데이터는 서버로 전송되기 전에 URL-Encode 된다.
