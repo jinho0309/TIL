@@ -130,7 +130,7 @@ HTML코드를 의미론적 태그로 잘 설명하는 것이 기본
 - initial-scale=1.0 : 초기화면을 줌 안한 상태로 맞춘다.
 ## 외부문서삽입 - iframe
 ```html
-<iframe src="http://opentutorials.org" width="500" height="500"></iframe>
+<iframe src="http://opentutorials.org" width="500" height="500" sandbox></iframe>
 ```
 **but.** 신뢰할 수 없는 사이트에서 악성코드 같은 것을 포함하고 있다면 삽입된 외부소스에서 악성코드가 실행될 수 있기 때문에 보안에 취약. 이런 문제를 해소하기 위해서 HTML의 최신 버전인 HTML5에서는 샌드박스라는 것을 도입  
 - sandbox : 아이프래임으로 삽입된 웹페이지에서 자바스크립트 등이 실행되지 않도록 하는 방법
